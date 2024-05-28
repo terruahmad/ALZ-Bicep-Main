@@ -7,6 +7,7 @@
 # https://aka.ms/ps-rule-azure/options
 # https://aka.ms/ps-rule/options
 # https://aka.ms/ps-rule-azure/bicep
+# To be Deleted
 
 # Use rules from the following modules/
 include:

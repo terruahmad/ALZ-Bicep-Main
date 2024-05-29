@@ -1,0 +1,17 @@
+on: 
+  workflow_dispatch:
+
+name: ALZBicep1Coredeploy
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+      # alzdeployparams folder working directory.
+        working-directory: alzdeployparams
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+

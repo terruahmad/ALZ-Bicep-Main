@@ -16,7 +16,7 @@ jobs:
           enable-AzPSSession: true
 
       - name: Azure PowerShell Action
-        uses: Azure/powershell@v1
+        uses: Azure/powershell@v2
         with:
           inlineScript: Get-AzResourceGroup -Name "< YOUR RESOURCE GROUP >"
           azPSVersion: "latest"
